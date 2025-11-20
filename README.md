@@ -1,26 +1,78 @@
-# Genshin Impact Dialogue Voice Dataset  
-### (Ayaka, Keqing, Klee, Nahida – In-Game Storyline Audio)
+当然可以！以下是完整、连贯、无需拆分的 GitHub README.md 内容，已整合所有信息为一个完整的 Markdown 文档，你可以直接复制粘贴到你的 GitHub 仓库中使用：
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  
+markdown
+Genshin Impact Dialogue Voice Dataset
+Natural In-Game Storyline Speech from Ayaka, Keqing, Klee, and Nahida
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Dataset on AI Studio](https://img.shields.io/badge/Dataset-AI%20Studio-blue)](https://aistudio.baidu.com/datasetdetail/252476/0)
 
-This repository provides a curated dataset of **in-game storyline dialogue audio** from ***Genshin Impact***, featuring four popular characters:
+This open dataset captures authentic, emotionally expressive dialogue spoken by four beloved characters in Genshin Impact—Kamisato Ayaka, Keqing, Klee, and Nahida—as they appear in main quests, world quests, and cinematic story scenes.
 
-- **Kamisato Ayaka**（神里绫华）  
-- **Keqing**（刻晴）  
-- **Klee**（可莉）  
-- **Nahida**（纳西妲）
+Unlike combat or idle voice lines, these recordings reflect natural conversational speech: varied intonation, contextual emotion, and real narrative flow—making them especially valuable for:
+🎙️ Speech Recognition (ASR) with rich prosody
+🗣️ Text-to-Speech (TTS) modeling of character-specific voices
+❤️ Emotion and speaker-style analysis
+🤖 Dialogue system and role-playing AI research
+⚠️ For non-commercial use only. Audio is extracted from Genshin Impact (© miHoYo) and compiled by fans. This project is not affiliated with miHoYo or its subsidiaries.
+📦 Dataset Structure
 
-All utterances are extracted from **main quests, world quests, and story cutscenes**, ensuring natural intonation, emotional expression, and contextual richness—ideal for research in:
-- Automatic Speech Recognition (ASR)
-- Text-to-Speech Synthesis (TTS)
-- Emotion & Prosody Analysis
-- Dialogue System Training
+The dataset is organized into one ZIP file per character, using standardized English filenames for cross-platform compatibility:
 
-> ⚠️ **Non-commercial use only**. Audio assets are copyright © miHoYo (makers of *Genshin Impact*). This dataset is fan-compiled and not affiliated with the official developers.
+genshin-dialogue-voices/
+├── data.zip ← Kamisato Ayaka (神里绫华)
+├── keqing.zip ← Keqing (刻晴)
+├── klee.zip ← Klee (可莉)
+├── nahida.zip ← Nahida (纳西妲)
+└── README.md
 
----
+Each archive contains:
+Multiple .wav audio clips (16 kHz, mono, typically 1–5 seconds)
+A transcript.txt file with line-aligned Chinese transcripts
+Example (klee.zip contents):
 
-## 📦 Dataset Structure
+1.wav
+2.wav
+...
+187.wav
+transcript.txt
+Transcript Format (transcript.txt):
+text
+1 Klee最喜欢和大家一起玩啦！
+2 这个炸弹配方超级安全的，真的！
+3 哇！是闪闪发光的遗迹守卫！
+...
+🔹 The number in the filename (e.g., 1.wav) matches the line number in transcript.txt.
+🔹 All audio is manually segmented from actual storyline dialogue in Genshin Impact.
+🔗 Download
 
-The dataset is distributed as separate ZIP archives per character:
+The complete dataset is hosted on Baidu AI Studio:
+👉 [https://aistudio.baidu.com/datasetdetail/252476/0](https://aistudio.baidu.com/datasetdetail/252476/0?login_type=weixin)
+💡 You’ll need to log in (WeChat or Baidu account) to download the files.
+📜 License
+
+This dataset is released under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+✅ You are free to:
+Use the data for academic research, personal projects, or non-commercial AI development
+Share and adapt the dataset, provided you give appropriate credit
+
+❌ You may not:
+Use it in any commercial product, service, or monetized application
+Redistribute the raw audio as a standalone product
+Claim ownership of the original voice lines
+
+Attribution:
+"Voice data sourced from storyline dialogues in Genshin Impact, compiled by community contributors. Original audio © miHoYo."
+🤝 Contributions Welcome!
+
+Help make this dataset more accurate and useful:
+Submit corrections to transcript.txt (typos, mismatches)
+Add metadata (e.g., quest name, emotional label, scene context)
+Share utility scripts (audio resampling, format conversion, etc.)
+
+Feel free to open an Issue or Pull Request!
+
+✨ May your models speak with the grace of Ayaka, the resolve of Keqing, the joy of Klee, and the wisdom of Nahida.
+Not affiliated with miHoYo or the creators of Genshin Impact.
+
