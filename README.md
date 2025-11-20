@@ -1,23 +1,22 @@
-当然可以！以下是完整、连贯、无需拆分的 GitHub README.md 内容，已整合所有信息为一个完整的 Markdown 文档，你可以直接复制粘贴到你的 GitHub 仓库中使用：
+# Genshin Impact Dialogue Voice Dataset  
+### Natural In-Game Storyline Speech from Ayaka, Keqing, Klee, and Nahida
 
-markdown
-Genshin Impact Dialogue Voice Dataset
-Natural In-Game Storyline Speech from Ayaka, Keqing, Klee, and Nahida
-
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  
 [![Dataset on AI Studio](https://img.shields.io/badge/Dataset-AI%20Studio-blue)](https://aistudio.baidu.com/datasetdetail/252476/0)
 
-This open dataset captures authentic, emotionally expressive dialogue spoken by four beloved characters in Genshin Impact—Kamisato Ayaka, Keqing, Klee, and Nahida—as they appear in main quests, world quests, and cinematic story scenes.
+This open dataset captures **authentic, emotionally expressive dialogue** spoken by four beloved characters in ***Genshin Impact***—**Kamisato Ayaka**, **Keqing**, **Klee**, and **Nahida**—as they appear in **main quests, world quests, and cinematic story scenes**.
 
-Unlike combat or idle voice lines, these recordings reflect natural conversational speech: varied intonation, contextual emotion, and real narrative flow—making them especially valuable for:
-🎙️ Speech Recognition (ASR) with rich prosody
-🗣️ Text-to-Speech (TTS) modeling of character-specific voices
-❤️ Emotion and speaker-style analysis
-🤖 Dialogue system and role-playing AI research
-⚠️ For non-commercial use only. Audio is extracted from Genshin Impact (© miHoYo) and compiled by fans. This project is not affiliated with miHoYo or its subsidiaries.
-📦 Dataset Structure
+Unlike combat or idle voice lines, these recordings reflect **natural conversational speech**: varied intonation, contextual emotion, and real narrative flow—making them especially valuable for:
+- 🎙️ **Speech Recognition (ASR)** with rich prosody  
+- 🗣️ **Text-to-Speech (TTS)** modeling of character-specific voices  
+- ❤️ **Emotion and speaker-style analysis**  
+- 🤖 **Dialogue system and role-playing AI research**
 
-The dataset is organized into one ZIP file per character, using standardized English filenames for cross-platform compatibility:
+> ⚠️ **For non-commercial use only**. Audio is extracted from *Genshin Impact* (© miHoYo) and compiled by fans. This project is **not affiliated** with miHoYo or its subsidiaries.
+
+## 📦 Dataset Structure
+
+The dataset is organized into **one ZIP file per character**, using standardized English filenames for cross-platform compatibility:
 
 genshin-dialogue-voices/
 ├── data.zip ← Kamisato Ayaka (神里绫华)
