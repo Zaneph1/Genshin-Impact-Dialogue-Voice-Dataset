@@ -35,7 +35,7 @@ Each archive contains:
 - A `transcript.txt` file with **line-aligned Chinese transcripts**
 
 ### Example (`klee.zip` contents):
-```
+
 1.wav
 2.wav
 ...
